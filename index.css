@@ -1,0 +1,63 @@
+body{
+    background-image: url("/public/background.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head h5{
+    font-size: 17px;
+    font-style: italic;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item-form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.inventory{
+    margin-left: 300px;
+    margin-right: 50px;
+}
+.item-form label{
+    margin-bottom: 10px;
+}
+.item-form h2{
+    margin-left: 70px;
+    text-decoration: underline;
+}
+.item-form button{
+    font-family: "Calistoga", serif;
+    background-color: rgb(3, 0, 180);
+    border: none;
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 4px;
+}
+.inventory p{
+    margin-left: -20px;
+}
+.inventory h3{
+    text-decoration: underline;
+    margin-left: -20px;
+
+}
